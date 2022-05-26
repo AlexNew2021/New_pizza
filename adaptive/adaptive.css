@@ -1,0 +1,224 @@
+@media (max-width:1200px){
+
+.main_container{max-width: 995px;}
+
+.menu{max-width: 995px;
+}
+
+
+
+ul a:nth-child(1) {
+    padding-left: 100px;
+    }
+
+
+
+ul a:nth-child(4) {
+    padding-left: 50px;
+    padding-right: 125px;}
+
+    .text_card {
+        max-width: 389px;
+        padding: 65px 0px 67px 50px;
+    }
+
+    .pic_pizza_card {
+        padding: 43px 50px 147px 20px;
+        max-width: 497px;}
+
+        .card_advantages :nth-child(4) {
+            max-width: 235px;
+            padding-right: 5px;}
+
+            .card_advantages :nth-child(2) {
+                max-width: 200px;
+                padding-right: 5px;
+            }
+
+            .pic_pizza img {
+                max-width: 440px;
+                padding-bottom: 200px;}
+
+
+}
+
+@media (max-width:995px){
+    .main_container {max-width:770px;
+       }
+
+       .menu{max-width: 770px;
+       }
+
+       ul a:nth-child(1) {
+        padding-left: 70px;
+        }
+
+        ul a:nth-child(2) {
+            padding-left: 20px;
+        }
+
+        ul a:nth-child(3) {
+            padding-left: 20px;}
+
+       ul a:nth-child(4) {
+        padding-left: 20px;
+        padding-right: 20px;}
+
+        .text h1{
+            font-size: 25px;
+        }
+
+        .pic_pizza_card {
+            padding: 0px;}
+
+        .pic_pizza img {
+            max-width: 400px;
+            padding-bottom: 150px;}
+
+        .pic_pizza_card img{
+            max-width: 400px;
+            padding-top: 130px;
+           
+        }
+
+        .text_card :nth-child(1) {font-size: 33px;}
+        .text{font-size: 29px;}
+
+        .card_advantages{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding-bottom: 150px;
+        }
+
+        .card_advantages img { 
+            padding:0px;
+            
+            padding-bottom: 10px; }
+
+            .card_advantages p{
+            padding-bottom: 80px;
+
+            }
+
+
+            
+
+        
+}
+
+
+@media (max-width:770px){
+
+    .main_container {
+
+        max-width: 480px;
+       }
+
+       .menu{max-width: 480px;
+        display: flex;
+        flex-direction: column;
+       }
+
+       ul a:nth-child(1){padding: 0px;} 
+       ul a:nth-child(5){padding: 10px 30px;} 
+
+       .nav{
+           padding-top: 30px;
+       }
+
+       .order{
+           display: flex;
+           flex-direction: column-reverse;
+       }
+
+       .text h1{
+        padding-top: 0px;
+        line-height: 40px;
+       
+       }
+
+       .text{text-align: center;}
+
+       .pic_pizza {
+        margin: 0 auto;
+
+       }
+
+       .our_products_card {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;}
+
+        .text_card{
+         max-width: 480px;   
+        padding: 0px;
+        text-align: center;
+        }
+
+        .text_card :nth-child(1){
+        padding-top: 30px;
+        }
+
+        .pic_pizza_card img {
+            max-width: 400px;
+            padding-top: 70px;
+            padding-bottom: 30px;}
+           
+
+      form{max-width: 480px;}
+      form a{
+        padding-left: 110px;
+        padding-right: 110px;
+        max-width: 480px;}
+        
+
+    
+}
+
+
+@media (max-width:480px){
+
+    .main_container {
+
+        max-width: 330px;
+       }
+
+       .menu{max-width: 330px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+       }
+       
+
+       .nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;}
+
+        ul a:nth-child(1), ul a:nth-child(2), ul a:nth-child(3), ul a:nth-child(4){
+        padding: 0px;
+        padding-bottom: 10px;}
+
+        .pic_pizza img {
+        max-width: 300px;
+        margin: 0 auto;
+        }
+
+        .pic_pizza_card img{
+        max-width: 300px;
+        margin: 0 auto;
+        }
+
+        form{max-width: 320px;}
+        form a{
+          padding-left: 30px;
+          padding-right: 30px;
+          max-width: 320px;}
+
+    }  
+
+    
